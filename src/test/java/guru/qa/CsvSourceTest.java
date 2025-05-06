@@ -1,4 +1,4 @@
-package guru_qa;
+package guru.qa;
 import Components.LoginPage;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 
 @DisplayName("Web - Тест на экран авторизации")
-public class CsvLoginTest {
+public class CsvSourceTest {
     LoginPage loginPage = new LoginPage();
 
 
